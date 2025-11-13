@@ -1,0 +1,265 @@
+﻿@{
+    ViewData["Title"] = "FAQ - Eclipse";
+}
+
+<link rel="stylesheet" href="~/css/Faq/Faq.css" />
+
+<div class="main-container">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12">
+                <div class="text-center mb-5">
+                    <h1 class="page-title">Perguntas Frequentes</h1>
+                    <p class="page-subtitle">Encontre respostas rápidas para os problemas mais comuns em nossos jogos</p>
+                </div>
+
+                <!-- Search Bar -->
+                <div class="row justify-content-center mb-5">
+                    <div class="col-lg-8">
+                        <div class="search-container glass-effect">
+                            <div class="input-group">
+                                <span class="input-group-text bg-transparent border-0">
+                                    <i class="fas fa-search text-purple"></i>
+                                </span>
+                                <input type="text" id="faqSearch" class="form-control search-input" 
+                                       placeholder="Buscar por problema ou palavra-chave...">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ Categories -->
+                <div class="row mb-4">
+                    <div class="col-12">
+                        <div class="categories-container">
+                            <button class="category-btn active" data-category="all">
+                                <i class="fas fa-th-large me-2"></i>Todos
+                            </button>
+                            <button class="category-btn" data-category="technical">
+                                <i class="fas fa-cog me-2"></i>Problemas Técnicos
+                            </button>
+                            <button class="category-btn" data-category="account">
+                                <i class="fas fa-user me-2"></i>Conta e Login
+                            </button>
+                            <button class="category-btn" data-category="payment">
+                                <i class="fas fa-credit-card me-2"></i>Pagamentos
+                            </button>
+                            <button class="category-btn" data-category="gameplay">
+                                <i class="fas fa-gamepad me-2"></i>Jogabilidade
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ Items -->
+                <div class="row justify-content-center">
+                    <div class="col-lg-10">
+                        <div class="faq-container">
+                            <!-- Technical Issues -->
+                            <div class="faq-category" data-category="technical">
+                                <h3 class="category-title">
+                                    <i class="fas fa-cog me-2"></i>Problemas Técnicos
+                                </h3>
+                                
+                                <div class="faq-item glass-effect">
+                                    <div class="faq-question" data-bs-toggle="collapse" data-bs-target="#faq1">
+                                        <span>Meu jogo está travando ou fechando sozinho. O que fazer?</span>
+                                        <i class="fas fa-chevron-down"></i>
+                                    </div>
+                                    <div class="faq-answer collapse" id="faq1">
+                                        <div class="solution-steps">
+                                            <div class="solution-step">Verifique se seu computador atende aos requisitos mínimos do jogo</div>
+                                            <div class="solution-step">Atualize os drivers da sua placa de vídeo</div>
+                                            <div class="solution-step">Feche outros programas em segundo plano</div>
+                                            <div class="solution-step">Verifique a integridade dos arquivos do jogo</div>
+                                            <div class="solution-step">Reduza as configurações gráficas nas opções do jogo</div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="faq-item glass-effect">
+                                    <div class="faq-question" data-bs-toggle="collapse" data-bs-target="#faq2">
+                                        <span>Estou com problemas de conexão e lag durante o jogo</span>
+                                        <i class="fas fa-chevron-down"></i>
+                                    </div>
+                                    <div class="faq-answer collapse" id="faq2">
+                                        <div class="solution-steps">
+                                            <div class="solution-step">Teste sua velocidade de internet</div>
+                                            <div class="solution-step">Use conexão por cabo em vez de Wi-Fi quando possível</div>
+                                            <div class="solution-step">Feche programas que usam internet em segundo plano</div>
+                                            <div class="solution-step">Verifique se há atualizações do jogo disponíveis</div>
+                                            <div class="solution-step">Reinicie seu roteador/modem</div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="faq-item glass-effect">
+                                    <div class="faq-question" data-bs-toggle="collapse" data-bs-target="#faq3">
+                                        <span>O áudio do jogo não está funcionando</span>
+                                        <i class="fas fa-chevron-down"></i>
+                                    </div>
+                                    <div class="faq-answer collapse" id="faq3">
+                                        <div class="solution-steps">
+                                            <div class="solution-step">Verifique se o som não está mudo no Windows e no jogo</div>
+                                            <div class="solution-step">Teste se outros programas têm áudio</div>
+                                            <div class="solution-step">Atualize os drivers de áudio</div>
+                                            <div class="solution-step">Verifique as configurações de áudio nas opções do jogo</div>
+                                            <div class="solution-step">Reinicie o jogo</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Account Issues -->
+                            <div class="faq-category" data-category="account">
+                                <h3 class="category-title">
+                                    <i class="fas fa-user me-2"></i>Conta e Login
+                                </h3>
+
+                                <div class="faq-item glass-effect">
+                                    <div class="faq-question" data-bs-toggle="collapse" data-bs-target="#faq4">
+                                        <span>Esqueci minha senha. Como recuperar minha conta?</span>
+                                        <i class="fas fa-chevron-down"></i>
+                                    </div>
+                                    <div class="faq-answer collapse" id="faq4">
+                                        <div class="solution-steps">
+                                            <div class="solution-step">Clique em "Esqueci minha senha" na tela de login</div>
+                                            <div class="solution-step">Digite o email associado à sua conta</div>
+                                            <div class="solution-step">Verifique sua caixa de entrada e spam</div>
+                                            <div class="solution-step">Siga as instruções no email recebido</div>
+                                            <div class="solution-step">Crie uma nova senha segura</div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="faq-item glass-effect">
+                                    <div class="faq-question" data-bs-toggle="collapse" data-bs-target="#faq5">
+                                        <span>Minha conta foi hackeada ou roubada</span>
+                                        <i class="fas fa-chevron-down"></i>
+                                    </div>
+                                    <div class="faq-answer collapse" id="faq5">
+                                        <div class="solution-steps">
+                                            <div class="solution-step">Entre em contato imediatamente com o suporte</div>
+                                            <div class="solution-step">Forneça informações para verificar sua identidade</div>
+                                            <div class="solution-step">Altere todas as senhas relacionadas</div>
+                                            <div class="solution-step">Ative a autenticação de dois fatores</div>
+                                            <div class="solution-step">Verifique atividades suspeitas em sua conta</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Payment Issues -->
+                            <div class="faq-category" data-category="payment">
+                                <h3 class="category-title">
+                                    <i class="fas fa-credit-card me-2"></i>Pagamentos
+                                </h3>
+
+                                <div class="faq-item glass-effect">
+                                    <div class="faq-question" data-bs-toggle="collapse" data-bs-target="#faq6">
+                                        <span>Como solicitar reembolso de uma compra?</span>
+                                        <i class="fas fa-chevron-down"></i>
+                                    </div>
+                                    <div class="faq-answer collapse" id="faq6">
+                                        <div class="solution-steps">
+                                            <div class="solution-step">Acesse "Histórico de Compras" em sua conta</div>
+                                            <div class="solution-step">Selecione a compra que deseja reembolsar</div>
+                                            <div class="solution-step">Preencha o formulário de solicitação</div>
+                                            <div class="solution-step">Reembolsos são processados em até 7 dias úteis</div>
+                                            <div class="solution-step">Valide os requisitos de reembolso (tempo de uso)</div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="faq-item glass-effect">
+                                    <div class="faq-question" data-bs-toggle="collapse" data-bs-target="#faq7">
+                                        <span>Meu pagamento foi recusado. O que fazer?</span>
+                                        <i class="fas fa-chevron-down"></i>
+                                    </div>
+                                    <div class="faq-answer collapse" id="faq7">
+                                        <div class="solution-steps">
+                                            <div class="solution-step">Verifique os dados do cartão</div>
+                                            <div class="solution-step">Confirme se há limite disponível</div>
+                                            <div class="solution-step">Tente outro método de pagamento</div>
+                                            <div class="solution-step">Entre em contato com seu banco</div>
+                                            <div class="solution-step">Aguarde 24h para nova tentativa</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Gameplay Issues -->
+                            <div class="faq-category" data-category="gameplay">
+                                <h3 class="category-title">
+                                    <i class="fas fa-gamepad me-2"></i>Jogabilidade
+                                </h3>
+
+                                <div class="faq-item glass-effect">
+                                    <div class="faq-question" data-bs-toggle="collapse" data-bs-target="#faq8">
+                                        <span>Como salvar meu progresso no jogo?</span>
+                                        <i class="fas fa-chevron-down"></i>
+                                    </div>
+                                    <div class="faq-answer collapse" id="faq8">
+                                        <div class="solution-steps">
+                                            <div class="solution-step">A maioria dos jogos salva automaticamente</div>
+                                            <div class="solution-step">Procure por pontos de salvamento no jogo</div>
+                                            <div class="solution-step">Verifique se está conectado aos servidores</div>
+                                            <div class="solution-step">Não feche o jogo durante saves em andamento</div>
+                                            <div class="solution-step">Confirme se há espaço em disco suficiente</div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="faq-item glass-effect">
+                                    <div class="faq-question" data-bs-toggle="collapse" data-bs-target="#faq9">
+                                        <span>Controles não estão respondendo corretamente</span>
+                                        <i class="fas fa-chevron-down"></i>
+                                    </div>
+                                    <div class="faq-answer collapse" id="faq9">
+                                        <div class="solution-steps">
+                                            <div class="solution-step">Verifique as configurações de controle no jogo</div>
+                                            <div class="solution-step">Teste o controle em outro jogo ou computador</div>
+                                            <div class="solution-step">Atualize os drivers do controle</div>
+                                            <div class="solution-step">Reconecte o controle ou troque as pilhas</div>
+                                            <div class="solution-step">Calibre o controle nas configurações do Windows</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- No Results Message -->
+                            <div id="noResults" class="text-center py-5 d-none">
+                                <i class="fas fa-search fa-3x mb-3 text-muted"></i>
+                                <h4 class="text-muted">Nenhum resultado encontrado</h4>
+                                <p class="text-muted">Tente usar outras palavras-chave ou verifique a ortografia</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Support CTA -->
+                <div class="row justify-content-center mt-5">
+                    <div class="col-lg-8">
+                        <div class="support-cta glass-effect text-center p-5">
+                            <i class="fas fa-headset fa-3x text-purple mb-3"></i>
+                            <h3 class="mb-3">Não encontrou o que procurava?</h3>
+                            <p class="mb-4">Nossa equipe de suporte está pronta para ajudar você com problemas específicos</p>
+                            <div class="cta-buttons">
+                                <a href="@Url.Action("Index", "ChatView")" class="btn btn-purple me-3">
+                                    <i class="fas fa-comments me-2"></i>Chat com IA
+                                </a>
+                                <a href="@Url.Action("Create", "Chamado")" class="btn btn-outline-light">
+                                    <i class="fas fa-ticket-alt me-2"></i>Abrir Chamado
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="~/js/faq.js"></script>
+}

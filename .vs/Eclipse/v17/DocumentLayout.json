@@ -1,0 +1,700 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Windows 10\\Desktop\\EclipseOficial\\Eclipse 4-1\\Eclipse 4\\Eclipse 22\\Eclipse\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AB34DD10-CB3D-47C4-9507-2F33E9D388DD}|Eclipse\\Eclipse.csproj|c:\\users\\windows 10\\desktop\\eclipseoficial\\eclipse 4-1\\eclipse 4\\eclipse 22\\eclipse\\eclipse\\controllers\\chamadocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB34DD10-CB3D-47C4-9507-2F33E9D388DD}|Eclipse\\Eclipse.csproj|solutionrelative:eclipse\\controllers\\chamadocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB34DD10-CB3D-47C4-9507-2F33E9D388DD}|Eclipse\\Eclipse.csproj|c:\\users\\windows 10\\desktop\\eclipseoficial\\eclipse 4-1\\eclipse 4\\eclipse 22\\eclipse\\eclipse\\controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB34DD10-CB3D-47C4-9507-2F33E9D388DD}|Eclipse\\Eclipse.csproj|solutionrelative:eclipse\\controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB34DD10-CB3D-47C4-9507-2F33E9D388DD}|Eclipse\\Eclipse.csproj|c:\\users\\windows 10\\desktop\\eclipseoficial\\eclipse 4-1\\eclipse 4\\eclipse 22\\eclipse\\eclipse\\controllers\\chatviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB34DD10-CB3D-47C4-9507-2F33E9D388DD}|Eclipse\\Eclipse.csproj|solutionrelative:eclipse\\controllers\\chatviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB34DD10-CB3D-47C4-9507-2F33E9D388DD}|Eclipse\\Eclipse.csproj|c:\\users\\windows 10\\desktop\\eclipseoficial\\eclipse 4-1\\eclipse 4\\eclipse 22\\eclipse\\eclipse\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB34DD10-CB3D-47C4-9507-2F33E9D388DD}|Eclipse\\Eclipse.csproj|solutionrelative:eclipse\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB34DD10-CB3D-47C4-9507-2F33E9D388DD}|Eclipse\\Eclipse.csproj|c:\\users\\windows 10\\desktop\\eclipseoficial\\eclipse 4-1\\eclipse 4\\eclipse 22\\eclipse\\eclipse\\controllers\\faqcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB34DD10-CB3D-47C4-9507-2F33E9D388DD}|Eclipse\\Eclipse.csproj|solutionrelative:eclipse\\controllers\\faqcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB34DD10-CB3D-47C4-9507-2F33E9D388DD}|Eclipse\\Eclipse.csproj|c:\\users\\windows 10\\desktop\\eclipseoficial\\eclipse 4-1\\eclipse 4\\eclipse 22\\eclipse\\eclipse\\views\\faq\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB34DD10-CB3D-47C4-9507-2F33E9D388DD}|Eclipse\\Eclipse.csproj|solutionrelative:eclipse\\views\\faq\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB34DD10-CB3D-47C4-9507-2F33E9D388DD}|Eclipse\\Eclipse.csproj|c:\\users\\windows 10\\desktop\\eclipseoficial\\eclipse 4-1\\eclipse 4\\eclipse 22\\eclipse\\eclipse\\wwwroot\\css\\chamado\\edit_dt.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{AB34DD10-CB3D-47C4-9507-2F33E9D388DD}|Eclipse\\Eclipse.csproj|solutionrelative:eclipse\\wwwroot\\css\\chamado\\edit_dt.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB34DD10-CB3D-47C4-9507-2F33E9D388DD}|Eclipse\\Eclipse.csproj|c:\\users\\windows 10\\desktop\\eclipseoficial\\eclipse 4-1\\eclipse 4\\eclipse 22\\eclipse\\eclipse\\wwwroot\\css\\chamado\\chamados.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{AB34DD10-CB3D-47C4-9507-2F33E9D388DD}|Eclipse\\Eclipse.csproj|solutionrelative:eclipse\\wwwroot\\css\\chamado\\chamados.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB34DD10-CB3D-47C4-9507-2F33E9D388DD}|Eclipse\\Eclipse.csproj|c:\\users\\windows 10\\desktop\\eclipseoficial\\eclipse 4-1\\eclipse 4\\eclipse 22\\eclipse\\eclipse\\wwwroot\\css\\chamado\\create_del.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{AB34DD10-CB3D-47C4-9507-2F33E9D388DD}|Eclipse\\Eclipse.csproj|solutionrelative:eclipse\\wwwroot\\css\\chamado\\create_del.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB34DD10-CB3D-47C4-9507-2F33E9D388DD}|Eclipse\\Eclipse.csproj|c:\\users\\windows 10\\desktop\\eclipseoficial\\eclipse 4-1\\eclipse 4\\eclipse 22\\eclipse\\eclipse\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB34DD10-CB3D-47C4-9507-2F33E9D388DD}|Eclipse\\Eclipse.csproj|solutionrelative:eclipse\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB34DD10-CB3D-47C4-9507-2F33E9D388DD}|Eclipse\\Eclipse.csproj|c:\\users\\windows 10\\desktop\\eclipseoficial\\eclipse 4-1\\eclipse 4\\eclipse 22\\eclipse\\eclipse\\views\\sobrenos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB34DD10-CB3D-47C4-9507-2F33E9D388DD}|Eclipse\\Eclipse.csproj|solutionrelative:eclipse\\views\\sobrenos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB34DD10-CB3D-47C4-9507-2F33E9D388DD}|Eclipse\\Eclipse.csproj|c:\\users\\windows 10\\desktop\\eclipseoficial\\eclipse 4-1\\eclipse 4\\eclipse 22\\eclipse\\eclipse\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB34DD10-CB3D-47C4-9507-2F33E9D388DD}|Eclipse\\Eclipse.csproj|solutionrelative:eclipse\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB34DD10-CB3D-47C4-9507-2F33E9D388DD}|Eclipse\\Eclipse.csproj|c:\\users\\windows 10\\desktop\\eclipseoficial\\eclipse 4-1\\eclipse 4\\eclipse 22\\eclipse\\eclipse\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB34DD10-CB3D-47C4-9507-2F33E9D388DD}|Eclipse\\Eclipse.csproj|solutionrelative:eclipse\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB34DD10-CB3D-47C4-9507-2F33E9D388DD}|Eclipse\\Eclipse.csproj|c:\\users\\windows 10\\desktop\\eclipseoficial\\eclipse 4-1\\eclipse 4\\eclipse 22\\eclipse\\eclipse\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB34DD10-CB3D-47C4-9507-2F33E9D388DD}|Eclipse\\Eclipse.csproj|solutionrelative:eclipse\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB34DD10-CB3D-47C4-9507-2F33E9D388DD}|Eclipse\\Eclipse.csproj|c:\\users\\windows 10\\desktop\\eclipseoficial\\eclipse 4-1\\eclipse 4\\eclipse 22\\eclipse\\eclipse\\views\\chamado\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB34DD10-CB3D-47C4-9507-2F33E9D388DD}|Eclipse\\Eclipse.csproj|solutionrelative:eclipse\\views\\chamado\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB34DD10-CB3D-47C4-9507-2F33E9D388DD}|Eclipse\\Eclipse.csproj|c:\\users\\windows 10\\desktop\\eclipseoficial\\eclipse 4-1\\eclipse 4\\eclipse 22\\eclipse\\eclipse\\wwwroot\\css\\feedbacks\\create_del.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{AB34DD10-CB3D-47C4-9507-2F33E9D388DD}|Eclipse\\Eclipse.csproj|solutionrelative:eclipse\\wwwroot\\css\\feedbacks\\create_del.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB34DD10-CB3D-47C4-9507-2F33E9D388DD}|Eclipse\\Eclipse.csproj|c:\\users\\windows 10\\desktop\\eclipseoficial\\eclipse 4-1\\eclipse 4\\eclipse 22\\eclipse\\eclipse\\wwwroot\\css\\sobre\\sobre.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{AB34DD10-CB3D-47C4-9507-2F33E9D388DD}|Eclipse\\Eclipse.csproj|solutionrelative:eclipse\\wwwroot\\css\\sobre\\sobre.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB34DD10-CB3D-47C4-9507-2F33E9D388DD}|Eclipse\\Eclipse.csproj|c:\\users\\windows 10\\desktop\\eclipseoficial\\eclipse 4-1\\eclipse 4\\eclipse 22\\eclipse\\eclipse\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{AB34DD10-CB3D-47C4-9507-2F33E9D388DD}|Eclipse\\Eclipse.csproj|solutionrelative:eclipse\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB34DD10-CB3D-47C4-9507-2F33E9D388DD}|Eclipse\\Eclipse.csproj|c:\\users\\windows 10\\desktop\\eclipseoficial\\eclipse 4-1\\eclipse 4\\eclipse 22\\eclipse\\eclipse\\wwwroot\\css\\feedbacks\\feedback.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{AB34DD10-CB3D-47C4-9507-2F33E9D388DD}|Eclipse\\Eclipse.csproj|solutionrelative:eclipse\\wwwroot\\css\\feedbacks\\feedback.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB34DD10-CB3D-47C4-9507-2F33E9D388DD}|Eclipse\\Eclipse.csproj|c:\\users\\windows 10\\desktop\\eclipseoficial\\eclipse 4-1\\eclipse 4\\eclipse 22\\eclipse\\eclipse\\wwwroot\\css\\feedbacks\\edit_dt.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{AB34DD10-CB3D-47C4-9507-2F33E9D388DD}|Eclipse\\Eclipse.csproj|solutionrelative:eclipse\\wwwroot\\css\\feedbacks\\edit_dt.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB34DD10-CB3D-47C4-9507-2F33E9D388DD}|Eclipse\\Eclipse.csproj|c:\\users\\windows 10\\desktop\\eclipseoficial\\eclipse 4-1\\eclipse 4\\eclipse 22\\eclipse\\eclipse\\wwwroot\\css\\faq\\faq.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{AB34DD10-CB3D-47C4-9507-2F33E9D388DD}|Eclipse\\Eclipse.csproj|solutionrelative:eclipse\\wwwroot\\css\\faq\\faq.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB34DD10-CB3D-47C4-9507-2F33E9D388DD}|Eclipse\\Eclipse.csproj|c:\\users\\windows 10\\desktop\\eclipseoficial\\eclipse 4-1\\eclipse 4\\eclipse 22\\eclipse\\eclipse\\wwwroot\\css\\chat\\chat.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{AB34DD10-CB3D-47C4-9507-2F33E9D388DD}|Eclipse\\Eclipse.csproj|solutionrelative:eclipse\\wwwroot\\css\\chat\\chat.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB34DD10-CB3D-47C4-9507-2F33E9D388DD}|Eclipse\\Eclipse.csproj|c:\\users\\windows 10\\desktop\\eclipseoficial\\eclipse 4-1\\eclipse 4\\eclipse 22\\eclipse\\eclipse\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB34DD10-CB3D-47C4-9507-2F33E9D388DD}|Eclipse\\Eclipse.csproj|solutionrelative:eclipse\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB34DD10-CB3D-47C4-9507-2F33E9D388DD}|Eclipse\\Eclipse.csproj|c:\\users\\windows 10\\desktop\\eclipseoficial\\eclipse 4-1\\eclipse 4\\eclipse 22\\eclipse\\eclipse\\controllers\\sobrenoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB34DD10-CB3D-47C4-9507-2F33E9D388DD}|Eclipse\\Eclipse.csproj|solutionrelative:eclipse\\controllers\\sobrenoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB34DD10-CB3D-47C4-9507-2F33E9D388DD}|Eclipse\\Eclipse.csproj|c:\\users\\windows 10\\desktop\\eclipseoficial\\eclipse 4-1\\eclipse 4\\eclipse 22\\eclipse\\eclipse\\models\\feedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB34DD10-CB3D-47C4-9507-2F33E9D388DD}|Eclipse\\Eclipse.csproj|solutionrelative:eclipse\\models\\feedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB34DD10-CB3D-47C4-9507-2F33E9D388DD}|Eclipse\\Eclipse.csproj|c:\\users\\windows 10\\desktop\\eclipseoficial\\eclipse 4-1\\eclipse 4\\eclipse 22\\eclipse\\eclipse\\services\\chatiaservicehttp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB34DD10-CB3D-47C4-9507-2F33E9D388DD}|Eclipse\\Eclipse.csproj|solutionrelative:eclipse\\services\\chatiaservicehttp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB34DD10-CB3D-47C4-9507-2F33E9D388DD}|Eclipse\\Eclipse.csproj|c:\\users\\windows 10\\desktop\\eclipseoficial\\eclipse 4-1\\eclipse 4\\eclipse 22\\eclipse\\eclipse\\views\\feedbacks\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB34DD10-CB3D-47C4-9507-2F33E9D388DD}|Eclipse\\Eclipse.csproj|solutionrelative:eclipse\\views\\feedbacks\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB34DD10-CB3D-47C4-9507-2F33E9D388DD}|Eclipse\\Eclipse.csproj|c:\\users\\windows 10\\desktop\\eclipseoficial\\eclipse 4-1\\eclipse 4\\eclipse 22\\eclipse\\eclipse\\views\\chamado\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB34DD10-CB3D-47C4-9507-2F33E9D388DD}|Eclipse\\Eclipse.csproj|solutionrelative:eclipse\\views\\chamado\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB34DD10-CB3D-47C4-9507-2F33E9D388DD}|Eclipse\\Eclipse.csproj|c:\\users\\windows 10\\desktop\\eclipseoficial\\eclipse 4-1\\eclipse 4\\eclipse 22\\eclipse\\eclipse\\controllers\\feedbackscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB34DD10-CB3D-47C4-9507-2F33E9D388DD}|Eclipse\\Eclipse.csproj|solutionrelative:eclipse\\controllers\\feedbackscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB34DD10-CB3D-47C4-9507-2F33E9D388DD}|Eclipse\\Eclipse.csproj|c:\\users\\windows 10\\desktop\\eclipseoficial\\eclipse 4-1\\eclipse 4\\eclipse 22\\eclipse\\eclipse\\views\\chamado\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB34DD10-CB3D-47C4-9507-2F33E9D388DD}|Eclipse\\Eclipse.csproj|solutionrelative:eclipse\\views\\chamado\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB34DD10-CB3D-47C4-9507-2F33E9D388DD}|Eclipse\\Eclipse.csproj|c:\\users\\windows 10\\desktop\\eclipseoficial\\eclipse 4-1\\eclipse 4\\eclipse 22\\eclipse\\eclipse\\views\\chatview\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB34DD10-CB3D-47C4-9507-2F33E9D388DD}|Eclipse\\Eclipse.csproj|solutionrelative:eclipse\\views\\chatview\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB34DD10-CB3D-47C4-9507-2F33E9D388DD}|Eclipse\\Eclipse.csproj|c:\\users\\windows 10\\desktop\\eclipseoficial\\eclipse 4-1\\eclipse 4\\eclipse 22\\eclipse\\eclipse\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{AB34DD10-CB3D-47C4-9507-2F33E9D388DD}|Eclipse\\Eclipse.csproj|solutionrelative:eclipse\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB34DD10-CB3D-47C4-9507-2F33E9D388DD}|Eclipse\\Eclipse.csproj|c:\\users\\windows 10\\desktop\\eclipseoficial\\eclipse 4-1\\eclipse 4\\eclipse 22\\eclipse\\eclipse\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB34DD10-CB3D-47C4-9507-2F33E9D388DD}|Eclipse\\Eclipse.csproj|solutionrelative:eclipse\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Windows 10\\AppData\\Roaming\\Microsoft\\UserSecrets\\77e916ac-6f93-407e-a717-3f852a07d320\\secrets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB34DD10-CB3D-47C4-9507-2F33E9D388DD}|Eclipse\\Eclipse.csproj|c:\\users\\windows 10\\desktop\\eclipseoficial\\eclipse 4-1\\eclipse 4\\eclipse 22\\eclipse\\eclipse\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{AB34DD10-CB3D-47C4-9507-2F33E9D388DD}|Eclipse\\Eclipse.csproj|solutionrelative:eclipse\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB34DD10-CB3D-47C4-9507-2F33E9D388DD}|Eclipse\\Eclipse.csproj|c:\\users\\windows 10\\desktop\\eclipseoficial\\eclipse 4-1\\eclipse 4\\eclipse 22\\eclipse\\eclipse\\wwwroot\\js\\faq.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{AB34DD10-CB3D-47C4-9507-2F33E9D388DD}|Eclipse\\Eclipse.csproj|solutionrelative:eclipse\\wwwroot\\js\\faq.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB34DD10-CB3D-47C4-9507-2F33E9D388DD}|Eclipse\\Eclipse.csproj|c:\\users\\windows 10\\desktop\\eclipseoficial\\eclipse 4-1\\eclipse 4\\eclipse 22\\eclipse\\eclipse\\views\\feedbacks\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB34DD10-CB3D-47C4-9507-2F33E9D388DD}|Eclipse\\Eclipse.csproj|solutionrelative:eclipse\\views\\feedbacks\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB34DD10-CB3D-47C4-9507-2F33E9D388DD}|Eclipse\\Eclipse.csproj|c:\\users\\windows 10\\desktop\\eclipseoficial\\eclipse 4-1\\eclipse 4\\eclipse 22\\eclipse\\eclipse\\views\\feedbacks\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB34DD10-CB3D-47C4-9507-2F33E9D388DD}|Eclipse\\Eclipse.csproj|solutionrelative:eclipse\\views\\feedbacks\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB34DD10-CB3D-47C4-9507-2F33E9D388DD}|Eclipse\\Eclipse.csproj|c:\\users\\windows 10\\desktop\\eclipseoficial\\eclipse 4-1\\eclipse 4\\eclipse 22\\eclipse\\eclipse\\views\\feedbacks\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB34DD10-CB3D-47C4-9507-2F33E9D388DD}|Eclipse\\Eclipse.csproj|solutionrelative:eclipse\\views\\feedbacks\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB34DD10-CB3D-47C4-9507-2F33E9D388DD}|Eclipse\\Eclipse.csproj|c:\\users\\windows 10\\desktop\\eclipseoficial\\eclipse 4-1\\eclipse 4\\eclipse 22\\eclipse\\eclipse\\views\\feedbacks\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB34DD10-CB3D-47C4-9507-2F33E9D388DD}|Eclipse\\Eclipse.csproj|solutionrelative:eclipse\\views\\feedbacks\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB34DD10-CB3D-47C4-9507-2F33E9D388DD}|Eclipse\\Eclipse.csproj|c:\\users\\windows 10\\desktop\\eclipseoficial\\eclipse 4-1\\eclipse 4\\eclipse 22\\eclipse\\eclipse\\views\\chamado\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB34DD10-CB3D-47C4-9507-2F33E9D388DD}|Eclipse\\Eclipse.csproj|solutionrelative:eclipse\\views\\chamado\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB34DD10-CB3D-47C4-9507-2F33E9D388DD}|Eclipse\\Eclipse.csproj|c:\\users\\windows 10\\desktop\\eclipseoficial\\eclipse 4-1\\eclipse 4\\eclipse 22\\eclipse\\eclipse\\views\\chamado\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB34DD10-CB3D-47C4-9507-2F33E9D388DD}|Eclipse\\Eclipse.csproj|solutionrelative:eclipse\\views\\chamado\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Windows 10\\Desktop\\EclipseOficial\\Eclipse 4-1\\Eclipse 4\\Eclipse 22\\Eclipse\\Eclipse\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Eclipse\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Windows 10\\Desktop\\EclipseOficial\\Eclipse 4-1\\Eclipse 4\\Eclipse 22\\Eclipse\\Eclipse\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Eclipse\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-24T00:25:04.92Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Windows 10\\Desktop\\EclipseOficial\\Eclipse 4-1\\Eclipse 4\\Eclipse 22\\Eclipse\\Eclipse\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Eclipse\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\Windows 10\\Desktop\\EclipseOficial\\Eclipse 4-1\\Eclipse 4\\Eclipse 22\\Eclipse\\Eclipse\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Eclipse\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-03T19:19:23.313Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Windows 10\\Desktop\\EclipseOficial\\Eclipse 4-1\\Eclipse 4\\Eclipse 22\\Eclipse\\Eclipse\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Eclipse\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Windows 10\\Desktop\\EclipseOficial\\Eclipse 4-1\\Eclipse 4\\Eclipse 22\\Eclipse\\Eclipse\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Eclipse\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-31T01:40:31.293Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "create_del.css",
+              "DocumentMoniker": "C:\\Users\\Windows 10\\Desktop\\EclipseOficial\\Eclipse 4-1\\Eclipse 4\\Eclipse 22\\Eclipse\\Eclipse\\wwwroot\\css\\chamado\\create_del.css",
+              "RelativeDocumentMoniker": "Eclipse\\wwwroot\\css\\chamado\\create_del.css",
+              "ToolTip": "C:\\Users\\Windows 10\\Desktop\\EclipseOficial\\Eclipse 4-1\\Eclipse 4\\Eclipse 22\\Eclipse\\Eclipse\\wwwroot\\css\\chamado\\create_del.css",
+              "RelativeToolTip": "Eclipse\\wwwroot\\css\\chamado\\create_del.css",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAAAHkAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-10-27T22:18:28.142Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "chamados.css",
+              "DocumentMoniker": "C:\\Users\\Windows 10\\Desktop\\EclipseOficial\\Eclipse 4-1\\Eclipse 4\\Eclipse 22\\Eclipse\\Eclipse\\wwwroot\\css\\chamado\\chamados.css",
+              "RelativeDocumentMoniker": "Eclipse\\wwwroot\\css\\chamado\\chamados.css",
+              "ToolTip": "C:\\Users\\Windows 10\\Desktop\\EclipseOficial\\Eclipse 4-1\\Eclipse 4\\Eclipse 22\\Eclipse\\Eclipse\\wwwroot\\css\\chamado\\chamados.css",
+              "RelativeToolTip": "Eclipse\\wwwroot\\css\\chamado\\chamados.css",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAAAAgAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-10-27T21:50:50.987Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ChamadoController.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 10\\Desktop\\EclipseOficial\\Eclipse 4-1\\Eclipse 4\\Eclipse 22\\Eclipse\\Eclipse\\Controllers\\ChamadoController.cs",
+              "RelativeDocumentMoniker": "Eclipse\\Controllers\\ChamadoController.cs",
+              "ToolTip": "C:\\Users\\Windows 10\\Desktop\\EclipseOficial\\Eclipse 4-1\\Eclipse 4\\Eclipse 22\\Eclipse\\Eclipse\\Controllers\\ChamadoController.cs",
+              "RelativeToolTip": "Eclipse\\Controllers\\ChamadoController.cs",
+              "ViewState": "AgIAAOsAAAAAAAAAAAAUwDgBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T17:14:51.874Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ChatController.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 10\\Desktop\\EclipseOficial\\Eclipse 4-1\\Eclipse 4\\Eclipse 22\\Eclipse\\Eclipse\\Controllers\\ChatController.cs",
+              "RelativeDocumentMoniker": "Eclipse\\Controllers\\ChatController.cs",
+              "ToolTip": "C:\\Users\\Windows 10\\Desktop\\EclipseOficial\\Eclipse 4-1\\Eclipse 4\\Eclipse 22\\Eclipse\\Eclipse\\Controllers\\ChatController.cs",
+              "RelativeToolTip": "Eclipse\\Controllers\\ChatController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T03:24:58.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FaqController.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 10\\Desktop\\EclipseOficial\\Eclipse 4-1\\Eclipse 4\\Eclipse 22\\Eclipse\\Eclipse\\Controllers\\FaqController.cs",
+              "RelativeDocumentMoniker": "Eclipse\\Controllers\\FaqController.cs",
+              "ToolTip": "C:\\Users\\Windows 10\\Desktop\\EclipseOficial\\Eclipse 4-1\\Eclipse 4\\Eclipse 22\\Eclipse\\Eclipse\\Controllers\\FaqController.cs",
+              "RelativeToolTip": "Eclipse\\Controllers\\FaqController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T01:15:07.233Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 10\\Desktop\\EclipseOficial\\Eclipse 4-1\\Eclipse 4\\Eclipse 22\\Eclipse\\Eclipse\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Eclipse\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Windows 10\\Desktop\\EclipseOficial\\Eclipse 4-1\\Eclipse 4\\Eclipse 22\\Eclipse\\Eclipse\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Eclipse\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAABcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T03:34:18.717Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ChatViewController.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 10\\Desktop\\EclipseOficial\\Eclipse 4-1\\Eclipse 4\\Eclipse 22\\Eclipse\\Eclipse\\Controllers\\ChatViewController.cs",
+              "RelativeDocumentMoniker": "Eclipse\\Controllers\\ChatViewController.cs",
+              "ToolTip": "C:\\Users\\Windows 10\\Desktop\\EclipseOficial\\Eclipse 4-1\\Eclipse 4\\Eclipse 22\\Eclipse\\Eclipse\\Controllers\\ChatViewController.cs",
+              "RelativeToolTip": "Eclipse\\Controllers\\ChatViewController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T04:13:47.775Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Windows 10\\Desktop\\EclipseOficial\\Eclipse 4-1\\Eclipse 4\\Eclipse 22\\Eclipse\\Eclipse\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Eclipse\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Windows 10\\Desktop\\EclipseOficial\\Eclipse 4-1\\Eclipse 4\\Eclipse 22\\Eclipse\\Eclipse\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Eclipse\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-03T19:19:20.034Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Windows 10\\Desktop\\EclipseOficial\\Eclipse 4-1\\Eclipse 4\\Eclipse 22\\Eclipse\\Eclipse\\Views\\Faq\\Index.cshtml",
+              "RelativeDocumentMoniker": "Eclipse\\Views\\Faq\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Windows 10\\Desktop\\EclipseOficial\\Eclipse 4-1\\Eclipse 4\\Eclipse 22\\Eclipse\\Eclipse\\Views\\Faq\\Index.cshtml",
+              "RelativeToolTip": "Eclipse\\Views\\Faq\\Index.cshtml",
+              "ViewState": "AgIAANIAAAAAAAAAAAAAAPsAAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-04T01:25:27.755Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Windows 10\\Desktop\\EclipseOficial\\Eclipse 4-1\\Eclipse 4\\Eclipse 22\\Eclipse\\Eclipse\\Views\\Chamado\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Eclipse\\Views\\Chamado\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Windows 10\\Desktop\\EclipseOficial\\Eclipse 4-1\\Eclipse 4\\Eclipse 22\\Eclipse\\Eclipse\\Views\\Chamado\\Edit.cshtml",
+              "RelativeToolTip": "Eclipse\\Views\\Chamado\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-27T21:56:44.4Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Feedback.css",
+              "DocumentMoniker": "C:\\Users\\Windows 10\\Desktop\\EclipseOficial\\Eclipse 4-1\\Eclipse 4\\Eclipse 22\\Eclipse\\Eclipse\\wwwroot\\css\\Feedbacks\\Feedback.css",
+              "RelativeDocumentMoniker": "Eclipse\\wwwroot\\css\\Feedbacks\\Feedback.css",
+              "ToolTip": "C:\\Users\\Windows 10\\Desktop\\EclipseOficial\\Eclipse 4-1\\Eclipse 4\\Eclipse 22\\Eclipse\\Eclipse\\wwwroot\\css\\Feedbacks\\Feedback.css",
+              "RelativeToolTip": "Eclipse\\wwwroot\\css\\Feedbacks\\Feedback.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-11-01T18:30:13.438Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "edit_dt.css",
+              "DocumentMoniker": "C:\\Users\\Windows 10\\Desktop\\EclipseOficial\\Eclipse 4-1\\Eclipse 4\\Eclipse 22\\Eclipse\\Eclipse\\wwwroot\\css\\Feedbacks\\edit_dt.css",
+              "RelativeDocumentMoniker": "Eclipse\\wwwroot\\css\\Feedbacks\\edit_dt.css",
+              "ToolTip": "C:\\Users\\Windows 10\\Desktop\\EclipseOficial\\Eclipse 4-1\\Eclipse 4\\Eclipse 22\\Eclipse\\Eclipse\\wwwroot\\css\\Feedbacks\\edit_dt.css",
+              "RelativeToolTip": "Eclipse\\wwwroot\\css\\Feedbacks\\edit_dt.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAOkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-11-01T18:56:49.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "create_del.css",
+              "DocumentMoniker": "C:\\Users\\Windows 10\\Desktop\\EclipseOficial\\Eclipse 4-1\\Eclipse 4\\Eclipse 22\\Eclipse\\Eclipse\\wwwroot\\css\\Feedbacks\\create_del.css",
+              "RelativeDocumentMoniker": "Eclipse\\wwwroot\\css\\Feedbacks\\create_del.css",
+              "ToolTip": "C:\\Users\\Windows 10\\Desktop\\EclipseOficial\\Eclipse 4-1\\Eclipse 4\\Eclipse 22\\Eclipse\\Eclipse\\wwwroot\\css\\Feedbacks\\create_del.css",
+              "RelativeToolTip": "Eclipse\\wwwroot\\css\\Feedbacks\\create_del.css",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAAAFUBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-11-01T18:40:07.459Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "edit_dt.css",
+              "DocumentMoniker": "C:\\Users\\Windows 10\\Desktop\\EclipseOficial\\Eclipse 4-1\\Eclipse 4\\Eclipse 22\\Eclipse\\Eclipse\\wwwroot\\css\\chamado\\edit_dt.css",
+              "RelativeDocumentMoniker": "Eclipse\\wwwroot\\css\\chamado\\edit_dt.css",
+              "ToolTip": "C:\\Users\\Windows 10\\Desktop\\EclipseOficial\\Eclipse 4-1\\Eclipse 4\\Eclipse 22\\Eclipse\\Eclipse\\wwwroot\\css\\chamado\\edit_dt.css",
+              "RelativeToolTip": "Eclipse\\wwwroot\\css\\chamado\\edit_dt.css",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAswG4AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-10-27T22:17:37.319Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Faq.css",
+              "DocumentMoniker": "C:\\Users\\Windows 10\\Desktop\\EclipseOficial\\Eclipse 4-1\\Eclipse 4\\Eclipse 22\\Eclipse\\Eclipse\\wwwroot\\css\\Faq\\Faq.css",
+              "RelativeDocumentMoniker": "Eclipse\\wwwroot\\css\\Faq\\Faq.css",
+              "ToolTip": "C:\\Users\\Windows 10\\Desktop\\EclipseOficial\\Eclipse 4-1\\Eclipse 4\\Eclipse 22\\Eclipse\\Eclipse\\wwwroot\\css\\Faq\\Faq.css",
+              "RelativeToolTip": "Eclipse\\wwwroot\\css\\Faq\\Faq.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-11-04T01:28:02.699Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "chat.css",
+              "DocumentMoniker": "C:\\Users\\Windows 10\\Desktop\\EclipseOficial\\Eclipse 4-1\\Eclipse 4\\Eclipse 22\\Eclipse\\Eclipse\\wwwroot\\css\\chat\\chat.css",
+              "RelativeDocumentMoniker": "Eclipse\\wwwroot\\css\\chat\\chat.css",
+              "ToolTip": "C:\\Users\\Windows 10\\Desktop\\EclipseOficial\\Eclipse 4-1\\Eclipse 4\\Eclipse 22\\Eclipse\\Eclipse\\wwwroot\\css\\chat\\chat.css",
+              "RelativeToolTip": "Eclipse\\wwwroot\\css\\chat\\chat.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-11-01T14:17:17.316Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Windows 10\\Desktop\\EclipseOficial\\Eclipse 4-1\\Eclipse 4\\Eclipse 22\\Eclipse\\Eclipse\\Views\\SobreNos\\Index.cshtml",
+              "RelativeDocumentMoniker": "Eclipse\\Views\\SobreNos\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Windows 10\\Desktop\\EclipseOficial\\Eclipse 4-1\\Eclipse 4\\Eclipse 22\\Eclipse\\Eclipse\\Views\\SobreNos\\Index.cshtml",
+              "RelativeToolTip": "Eclipse\\Views\\SobreNos\\Index.cshtml",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAAAGAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-08T19:07:08.595Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\Windows 10\\Desktop\\EclipseOficial\\Eclipse 4-1\\Eclipse 4\\Eclipse 22\\Eclipse\\Eclipse\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Eclipse\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\Windows 10\\Desktop\\EclipseOficial\\Eclipse 4-1\\Eclipse 4\\Eclipse 22\\Eclipse\\Eclipse\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Eclipse\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-31T03:34:16.04Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "sobre.css",
+              "DocumentMoniker": "C:\\Users\\Windows 10\\Desktop\\EclipseOficial\\Eclipse 4-1\\Eclipse 4\\Eclipse 22\\Eclipse\\Eclipse\\wwwroot\\css\\Sobre\\sobre.css",
+              "RelativeDocumentMoniker": "Eclipse\\wwwroot\\css\\Sobre\\sobre.css",
+              "ToolTip": "C:\\Users\\Windows 10\\Desktop\\EclipseOficial\\Eclipse 4-1\\Eclipse 4\\Eclipse 22\\Eclipse\\Eclipse\\wwwroot\\css\\Sobre\\sobre.css",
+              "RelativeToolTip": "Eclipse\\wwwroot\\css\\Sobre\\sobre.css",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACcAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-11-08T19:09:22.116Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "style.css",
+              "DocumentMoniker": "C:\\Users\\Windows 10\\Desktop\\EclipseOficial\\Eclipse 4-1\\Eclipse 4\\Eclipse 22\\Eclipse\\Eclipse\\wwwroot\\css\\style.css",
+              "RelativeDocumentMoniker": "Eclipse\\wwwroot\\css\\style.css",
+              "ToolTip": "C:\\Users\\Windows 10\\Desktop\\EclipseOficial\\Eclipse 4-1\\Eclipse 4\\Eclipse 22\\Eclipse\\Eclipse\\wwwroot\\css\\style.css",
+              "RelativeToolTip": "Eclipse\\wwwroot\\css\\style.css",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAABcAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-10-31T01:44:35.007Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Windows 10\\Desktop\\EclipseOficial\\Eclipse 4-1\\Eclipse 4\\Eclipse 22\\Eclipse\\Eclipse\\Views\\Feedbacks\\Index.cshtml",
+              "RelativeDocumentMoniker": "Eclipse\\Views\\Feedbacks\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Windows 10\\Desktop\\EclipseOficial\\Eclipse 4-1\\Eclipse 4\\Eclipse 22\\Eclipse\\Eclipse\\Views\\Feedbacks\\Index.cshtml",
+              "RelativeToolTip": "Eclipse\\Views\\Feedbacks\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-01T18:15:45.677Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Windows 10\\Desktop\\EclipseOficial\\Eclipse 4-1\\Eclipse 4\\Eclipse 22\\Eclipse\\Eclipse\\Views\\Chamado\\Index.cshtml",
+              "RelativeDocumentMoniker": "Eclipse\\Views\\Chamado\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Windows 10\\Desktop\\EclipseOficial\\Eclipse 4-1\\Eclipse 4\\Eclipse 22\\Eclipse\\Eclipse\\Views\\Chamado\\Index.cshtml",
+              "RelativeToolTip": "Eclipse\\Views\\Chamado\\Index.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACMAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-27T21:46:30.272Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Windows 10\\Desktop\\EclipseOficial\\Eclipse 4-1\\Eclipse 4\\Eclipse 22\\Eclipse\\Eclipse\\Views\\Chamado\\Create.cshtml",
+              "RelativeDocumentMoniker": "Eclipse\\Views\\Chamado\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Windows 10\\Desktop\\EclipseOficial\\Eclipse 4-1\\Eclipse 4\\Eclipse 22\\Eclipse\\Eclipse\\Views\\Chamado\\Create.cshtml",
+              "RelativeToolTip": "Eclipse\\Views\\Chamado\\Create.cshtml",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAACYAAABjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-30T17:20:25.707Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "SobreNosController.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 10\\Desktop\\EclipseOficial\\Eclipse 4-1\\Eclipse 4\\Eclipse 22\\Eclipse\\Eclipse\\Controllers\\SobreNosController.cs",
+              "RelativeDocumentMoniker": "Eclipse\\Controllers\\SobreNosController.cs",
+              "ToolTip": "C:\\Users\\Windows 10\\Desktop\\EclipseOficial\\Eclipse 4-1\\Eclipse 4\\Eclipse 22\\Eclipse\\Eclipse\\Controllers\\SobreNosController.cs",
+              "RelativeToolTip": "Eclipse\\Controllers\\SobreNosController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T19:01:31.558Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ChatIaServiceHttp.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 10\\Desktop\\EclipseOficial\\Eclipse 4-1\\Eclipse 4\\Eclipse 22\\Eclipse\\Eclipse\\Services\\ChatIaServiceHttp.cs",
+              "RelativeDocumentMoniker": "Eclipse\\Services\\ChatIaServiceHttp.cs",
+              "ToolTip": "C:\\Users\\Windows 10\\Desktop\\EclipseOficial\\Eclipse 4-1\\Eclipse 4\\Eclipse 22\\Eclipse\\Eclipse\\Services\\ChatIaServiceHttp.cs",
+              "RelativeToolTip": "Eclipse\\Services\\ChatIaServiceHttp.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAWAQAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T03:22:28.588Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Feedback.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 10\\Desktop\\EclipseOficial\\Eclipse 4-1\\Eclipse 4\\Eclipse 22\\Eclipse\\Eclipse\\Models\\Feedback.cs",
+              "RelativeDocumentMoniker": "Eclipse\\Models\\Feedback.cs",
+              "ToolTip": "C:\\Users\\Windows 10\\Desktop\\EclipseOficial\\Eclipse 4-1\\Eclipse 4\\Eclipse 22\\Eclipse\\Eclipse\\Models\\Feedback.cs",
+              "RelativeToolTip": "Eclipse\\Models\\Feedback.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T19:00:36.388Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "FeedbacksController.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 10\\Desktop\\EclipseOficial\\Eclipse 4-1\\Eclipse 4\\Eclipse 22\\Eclipse\\Eclipse\\Controllers\\FeedbacksController.cs",
+              "RelativeDocumentMoniker": "Eclipse\\Controllers\\FeedbacksController.cs",
+              "ToolTip": "C:\\Users\\Windows 10\\Desktop\\EclipseOficial\\Eclipse 4-1\\Eclipse 4\\Eclipse 22\\Eclipse\\Eclipse\\Controllers\\FeedbacksController.cs",
+              "RelativeToolTip": "Eclipse\\Controllers\\FeedbacksController.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAqwGgAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T18:34:51.826Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Windows 10\\Desktop\\EclipseOficial\\Eclipse 4-1\\Eclipse 4\\Eclipse 22\\Eclipse\\Eclipse\\Views\\ChatView\\Index.cshtml",
+              "RelativeDocumentMoniker": "Eclipse\\Views\\ChatView\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Windows 10\\Desktop\\EclipseOficial\\Eclipse 4-1\\Eclipse 4\\Eclipse 22\\Eclipse\\Eclipse\\Views\\ChatView\\Index.cshtml",
+              "RelativeToolTip": "Eclipse\\Views\\ChatView\\Index.cshtml",
+              "ViewState": "AgIAAJ8AAAAAAAAAAAAAANMAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-31T03:23:24.212Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Windows 10\\Desktop\\EclipseOficial\\Eclipse 4-1\\Eclipse 4\\Eclipse 22\\Eclipse\\Eclipse\\appsettings.json",
+              "RelativeDocumentMoniker": "Eclipse\\appsettings.json",
+              "ToolTip": "C:\\Users\\Windows 10\\Desktop\\EclipseOficial\\Eclipse 4-1\\Eclipse 4\\Eclipse 22\\Eclipse\\Eclipse\\appsettings.json",
+              "RelativeToolTip": "Eclipse\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAACzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-31T23:52:19.478Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "secrets.json",
+              "DocumentMoniker": "C:\\Users\\Windows 10\\AppData\\Roaming\\Microsoft\\UserSecrets\\77e916ac-6f93-407e-a717-3f852a07d320\\secrets.json",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\AppData\\Roaming\\Microsoft\\UserSecrets\\77e916ac-6f93-407e-a717-3f852a07d320\\secrets.json",
+              "ToolTip": "C:\\Users\\Windows 10\\AppData\\Roaming\\Microsoft\\UserSecrets\\77e916ac-6f93-407e-a717-3f852a07d320\\secrets.json",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\AppData\\Roaming\\Microsoft\\UserSecrets\\77e916ac-6f93-407e-a717-3f852a07d320\\secrets.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAC0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-30T16:52:53.691Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\Windows 10\\Desktop\\EclipseOficial\\Eclipse 4-1\\Eclipse 4\\Eclipse 22\\Eclipse\\Eclipse\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "Eclipse\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\Windows 10\\Desktop\\EclipseOficial\\Eclipse 4-1\\Eclipse 4\\Eclipse 22\\Eclipse\\Eclipse\\appsettings.Development.json",
+              "RelativeToolTip": "Eclipse\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-31T23:52:14.287Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 10\\Desktop\\EclipseOficial\\Eclipse 4-1\\Eclipse 4\\Eclipse 22\\Eclipse\\Eclipse\\Program.cs",
+              "RelativeDocumentMoniker": "Eclipse\\Program.cs",
+              "ToolTip": "C:\\Users\\Windows 10\\Desktop\\EclipseOficial\\Eclipse 4-1\\Eclipse 4\\Eclipse 22\\Eclipse\\Eclipse\\Program.cs",
+              "RelativeToolTip": "Eclipse\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T14:04:41.121Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "faq.js",
+              "DocumentMoniker": "C:\\Users\\Windows 10\\Desktop\\EclipseOficial\\Eclipse 4-1\\Eclipse 4\\Eclipse 22\\Eclipse\\Eclipse\\wwwroot\\js\\faq.js",
+              "RelativeDocumentMoniker": "Eclipse\\wwwroot\\js\\faq.js",
+              "ToolTip": "C:\\Users\\Windows 10\\Desktop\\EclipseOficial\\Eclipse 4-1\\Eclipse 4\\Eclipse 22\\Eclipse\\Eclipse\\wwwroot\\js\\faq.js",
+              "RelativeToolTip": "Eclipse\\wwwroot\\js\\faq.js",
+              "ViewState": "AgIAAEYAAAAAAAAAAIBJwGwAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-11-04T01:29:52.982Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Windows 10\\Desktop\\EclipseOficial\\Eclipse 4-1\\Eclipse 4\\Eclipse 22\\Eclipse\\Eclipse\\Views\\Chamado\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Eclipse\\Views\\Chamado\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Windows 10\\Desktop\\EclipseOficial\\Eclipse 4-1\\Eclipse 4\\Eclipse 22\\Eclipse\\Eclipse\\Views\\Chamado\\Delete.cshtml",
+              "RelativeToolTip": "Eclipse\\Views\\Chamado\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-27T22:05:53.729Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Windows 10\\Desktop\\EclipseOficial\\Eclipse 4-1\\Eclipse 4\\Eclipse 22\\Eclipse\\Eclipse\\Views\\Feedbacks\\Create.cshtml",
+              "RelativeDocumentMoniker": "Eclipse\\Views\\Feedbacks\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Windows 10\\Desktop\\EclipseOficial\\Eclipse 4-1\\Eclipse 4\\Eclipse 22\\Eclipse\\Eclipse\\Views\\Feedbacks\\Create.cshtml",
+              "RelativeToolTip": "Eclipse\\Views\\Feedbacks\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwBsAAABlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-01T18:49:33.255Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Windows 10\\Desktop\\EclipseOficial\\Eclipse 4-1\\Eclipse 4\\Eclipse 22\\Eclipse\\Eclipse\\Views\\Feedbacks\\Details.cshtml",
+              "RelativeDocumentMoniker": "Eclipse\\Views\\Feedbacks\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Windows 10\\Desktop\\EclipseOficial\\Eclipse 4-1\\Eclipse 4\\Eclipse 22\\Eclipse\\Eclipse\\Views\\Feedbacks\\Details.cshtml",
+              "RelativeToolTip": "Eclipse\\Views\\Feedbacks\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-01T18:55:28.555Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Windows 10\\Desktop\\EclipseOficial\\Eclipse 4-1\\Eclipse 4\\Eclipse 22\\Eclipse\\Eclipse\\Views\\Feedbacks\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Eclipse\\Views\\Feedbacks\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Windows 10\\Desktop\\EclipseOficial\\Eclipse 4-1\\Eclipse 4\\Eclipse 22\\Eclipse\\Eclipse\\Views\\Feedbacks\\Delete.cshtml",
+              "RelativeToolTip": "Eclipse\\Views\\Feedbacks\\Delete.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAIBJwAYAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-01T18:58:45.905Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Windows 10\\Desktop\\EclipseOficial\\Eclipse 4-1\\Eclipse 4\\Eclipse 22\\Eclipse\\Eclipse\\Views\\Feedbacks\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Eclipse\\Views\\Feedbacks\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Windows 10\\Desktop\\EclipseOficial\\Eclipse 4-1\\Eclipse 4\\Eclipse 22\\Eclipse\\Eclipse\\Views\\Feedbacks\\Edit.cshtml",
+              "RelativeToolTip": "Eclipse\\Views\\Feedbacks\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-01T19:02:04.261Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Windows 10\\Desktop\\EclipseOficial\\Eclipse 4-1\\Eclipse 4\\Eclipse 22\\Eclipse\\Eclipse\\Views\\Chamado\\Details.cshtml",
+              "RelativeDocumentMoniker": "Eclipse\\Views\\Chamado\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Windows 10\\Desktop\\EclipseOficial\\Eclipse 4-1\\Eclipse 4\\Eclipse 22\\Eclipse\\Eclipse\\Views\\Chamado\\Details.cshtml",
+              "RelativeToolTip": "Eclipse\\Views\\Chamado\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-27T22:11:52.709Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

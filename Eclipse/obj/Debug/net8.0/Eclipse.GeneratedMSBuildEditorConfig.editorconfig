@@ -1,0 +1,109 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Eclipse
+build_property.RootNamespace = Eclipse
+build_property.ProjectDir = C:\Users\Windows 10\Desktop\EclipseOficial\Eclipse 4-1\Eclipse 4\Eclipse 22\Eclipse\Eclipse\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Windows 10\Desktop\EclipseOficial\Eclipse 4-1\Eclipse 4\Eclipse 22\Eclipse\Eclipse
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/Windows 10/Desktop/EclipseOficial/Eclipse 4-1/Eclipse 4/Eclipse 22/Eclipse/Eclipse/Views/Chamado/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhbWFkb1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Windows 10/Desktop/EclipseOficial/Eclipse 4-1/Eclipse 4/Eclipse 22/Eclipse/Eclipse/Views/Chamado/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhbWFkb1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Windows 10/Desktop/EclipseOficial/Eclipse 4-1/Eclipse 4/Eclipse 22/Eclipse/Eclipse/Views/Chamado/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhbWFkb1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Windows 10/Desktop/EclipseOficial/Eclipse 4-1/Eclipse 4/Eclipse 22/Eclipse/Eclipse/Views/Chamado/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhbWFkb1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Windows 10/Desktop/EclipseOficial/Eclipse 4-1/Eclipse 4/Eclipse 22/Eclipse/Eclipse/Views/Chamado/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhbWFkb1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Windows 10/Desktop/EclipseOficial/Eclipse 4-1/Eclipse 4/Eclipse 22/Eclipse/Eclipse/Views/ChatView/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhdFZpZXdcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Windows 10/Desktop/EclipseOficial/Eclipse 4-1/Eclipse 4/Eclipse 22/Eclipse/Eclipse/Views/Faq/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFxXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Windows 10/Desktop/EclipseOficial/Eclipse 4-1/Eclipse 4/Eclipse 22/Eclipse/Eclipse/Views/Feedbacks/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmVlZGJhY2tzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Windows 10/Desktop/EclipseOficial/Eclipse 4-1/Eclipse 4/Eclipse 22/Eclipse/Eclipse/Views/Feedbacks/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmVlZGJhY2tzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Windows 10/Desktop/EclipseOficial/Eclipse 4-1/Eclipse 4/Eclipse 22/Eclipse/Eclipse/Views/Feedbacks/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmVlZGJhY2tzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Windows 10/Desktop/EclipseOficial/Eclipse 4-1/Eclipse 4/Eclipse 22/Eclipse/Eclipse/Views/Feedbacks/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmVlZGJhY2tzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Windows 10/Desktop/EclipseOficial/Eclipse 4-1/Eclipse 4/Eclipse 22/Eclipse/Eclipse/Views/Feedbacks/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmVlZGJhY2tzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Windows 10/Desktop/EclipseOficial/Eclipse 4-1/Eclipse 4/Eclipse 22/Eclipse/Eclipse/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Windows 10/Desktop/EclipseOficial/Eclipse 4-1/Eclipse 4/Eclipse 22/Eclipse/Eclipse/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Windows 10/Desktop/EclipseOficial/Eclipse 4-1/Eclipse 4/Eclipse 22/Eclipse/Eclipse/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Windows 10/Desktop/EclipseOficial/Eclipse 4-1/Eclipse 4/Eclipse 22/Eclipse/Eclipse/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Windows 10/Desktop/EclipseOficial/Eclipse 4-1/Eclipse 4/Eclipse 22/Eclipse/Eclipse/Views/SobreNos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29icmVOb3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Windows 10/Desktop/EclipseOficial/Eclipse 4-1/Eclipse 4/Eclipse 22/Eclipse/Eclipse/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Windows 10/Desktop/EclipseOficial/Eclipse 4-1/Eclipse 4/Eclipse 22/Eclipse/Eclipse/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Windows 10/Desktop/EclipseOficial/Eclipse 4-1/Eclipse 4/Eclipse 22/Eclipse/Eclipse/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-bhy3o5s8jb

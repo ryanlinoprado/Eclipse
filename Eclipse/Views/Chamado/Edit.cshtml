@@ -1,0 +1,88 @@
+﻿@model Eclipse.Models.Chamado
+
+@{
+    ViewData["Title"] = "Editar Chamado";
+}
+
+<div class="main-container">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="content-card glass-effect">
+                    <div class="d-flex align-items-center mb-4">
+                        <a asp-action="Index" class="btn-back me-3">
+                            <i class="fas fa-arrow-left"></i>
+                        </a>
+                        <h1 class="page-title mb-0">Editar Chamado</h1>
+                    </div>
+
+                    <p class="page-subtitle">Atualize as informações do chamado de suporte</p>
+
+                    <form asp-action="Edit" class="edit-form">
+                        <div asp-validation-summary="ModelOnly" class="alert alert-danger"></div>
+                        <input type="hidden" asp-for="ChamadoId" />
+
+                        <div class="row">
+                            <div class="col-md-6 mb-4">
+                                <div class="form-group">
+                                    <label asp-for="Titulo" class="form-label">Título</label>
+                                    <input asp-for="Titulo" class="form-control" placeholder="Digite o título do chamado" />
+                                    <span asp-validation-for="Titulo" class="validation-message"></span>
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-4">
+                                <div class="form-group">
+                                    <label asp-for="Status" class="form-label">Status</label>
+                                    <select asp-for="Status" class="form-control">
+                                        <option class="form-color" value="">Selecione o status</option>
+                                        <option class="form-color" value="Aberto">Aberto</option>
+                                        <option class="form-color" value="Em Andamento">Em Andamento</option>
+                                        <option class="form-color" value="Fechado">Fechado</option>
+                                        <option class="form-color" value="Resolvido">Resolvido</option>
+                                    </select>
+                                    <span asp-validation-for="Status" class="validation-message"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mb-4">
+                            <div class="form-group">
+                                <label asp-for="Descricao" class="form-label">Descrição</label>
+                                <textarea asp-for="Descricao" class="form-control" rows="5" placeholder="Descreva detalhadamente o problema ou solicitação"></textarea>
+                                <span asp-validation-for="Descricao" class="validation-message"></span>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6 mb-4">
+                                <div class="form-group">
+                                    <label asp-for="DataCriacaoString" class="form-label">Data de Criação</label>
+                                    <input asp-for="DataCriacaoString" class="form-control" readonly />
+                                    <span asp-validation-for="DataCriacaoString" class="validation-message"></span>
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-4">
+                                <div class="form-group">
+                                    <label asp-for="DataAtualizacaoString" class="form-label">Última Atualização</label>
+                                    <input asp-for="DataAtualizacaoString" class="form-control" readonly />
+                                    <span asp-validation-for="DataAtualizacaoString" class="validation-message"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-actions">
+                            <button type="submit" class="btn-submit">
+                                <i class="fas fa-save me-2"></i>
+                                Salvar Alterações
+                            </button>
+                            <a asp-action="Index" class="btn-cancel">
+                                <i class="fas fa-times me-2"></i>
+                                Cancelar
+                            </a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

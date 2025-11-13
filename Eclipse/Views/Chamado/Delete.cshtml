@@ -1,0 +1,99 @@
+﻿@model Eclipse.Models.Chamado
+
+@{
+    ViewData["Title"] = "Excluir Chamado";
+}
+
+<div class="main-container">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="content-card glass-effect">
+                    <div class="d-flex align-items-center mb-4">
+                        <a asp-action="Index" class="btn-back me-3">
+                            <i class="fas fa-arrow-left"></i>
+                        </a>
+                        <h1 class="page-title mb-0 text-danger">Excluir Chamado</h1>
+                    </div>
+
+                    <div class="alert alert-warning mb-4">
+                        <div class="d-flex align-items-center">
+                            <i class="fas fa-exclamation-triangle me-3 fa-lg"></i>
+                            <div>
+                                <h4 class="alert-heading mb-2">Atenção!</h4>
+                                <p class="mb-0">Esta ação não pode ser desfeita. Tem certeza que deseja excluir este chamado?</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="chamado-details">
+                        <div class="detail-section">
+                            <h4 class="detail-title">Informações do Chamado</h4>
+
+                            <div class="detail-item">
+                                <span class="detail-label">Título</span>
+                                <span class="detail-value">@Model.Titulo</span>
+                            </div>
+
+                            <div class="detail-item">
+                                <span class="detail-label">Status</span>
+                                <span class="status-badge @GetStatusClass(Model.Status)">@Model.Status</span>
+                            </div>
+
+                            <div class="detail-item">
+                                <span class="detail-label">Descrição</span>
+                                <span class="detail-value detail-description">@Model.Descricao</span>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="detail-item">
+                                        <span class="detail-label">Data de Criação</span>
+                                        <span class="detail-value">@Model.DataCriacaoString</span>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="detail-item">
+                                        <span class="detail-label">Última Atualização</span>
+                                        <span class="detail-value">@Model.DataAtualizacaoString</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="detail-item">
+                                <span class="detail-label">ID do Chamado</span>
+                                <span class="detail-value">@Model.ChamadoId</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <form asp-action="Delete" class="delete-form mt-4">
+                        <input type="hidden" asp-for="ChamadoId" />
+
+                        <div class="form-actions">
+                            <button type="submit" class="btn-delete">
+                                <i class="fas fa-trash me-2"></i>
+                                Confirmar Exclusão
+                            </button>
+                            <a asp-action="Index" class="btn-cancel">
+                                <i class="fas fa-times me-2"></i>
+                                Cancelar
+                            </a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@functions {
+    public string GetStatusClass(string status) {
+        return status?.ToLower() switch {
+            "aberto" => "status-aberto",
+            "em andamento" => "status-andamento",
+            "fechado" or "resolvido" => "status-fechado",
+            _ => "status-aberto"
+        };
+    }
+}

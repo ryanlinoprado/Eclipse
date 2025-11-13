@@ -1,0 +1,62 @@
+﻿@model Eclipse.Models.Feedback
+
+@{
+    ViewData["Title"] = "Detalhes do Feedback";
+}
+
+<link href="~/css/Feedbacks/edit_dt.css" rel="stylesheet" />
+
+
+<div class="main-container">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="content-card glass-effect">
+                    <div class="d-flex align-items-center mb-4">
+                        <a asp-action="Index" class="btn-back me-3">
+                            <i class="fas fa-arrow-left"></i>
+                        </a>
+                        <h1 class="page-title mb-0">Detalhes do Feedback</h1>
+                    </div>
+
+                    <div class="feedback-details">
+                        <div class="detail-section">
+                            <h4 class="detail-title">Informações do Feedback</h4>
+
+                            <div class="detail-item">
+                                <span class="detail-label">Avaliação</span>
+                                <div class="rating-display">
+                                    @for (int i = 1; i <= 5; i++) {
+                                        <i class="fas fa-star @(i <= Model.Nota ? "active" : "")"></i>
+                                    }
+                                    <span class="rating-text">(@Model.Nota/5)</span>
+                                </div>
+                            </div>
+
+                            <div class="detail-item">
+                                <span class="detail-label">Comentário</span>
+                                <span class="detail-value detail-comment">@(string.IsNullOrEmpty(Model.Comentario) ? "Sem comentário" : Model.Comentario)</span>
+                            </div>
+
+                            <div class="detail-item">
+                                <span class="detail-label">ID do Feedback</span>
+                                <span class="detail-value">@Model.FeedbackId</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="action-buttons mt-4">
+                        <a asp-action="Edit" asp-route-id="@Model.FeedbackId" class="btn-submit">
+                            <i class="fas fa-edit me-2"></i>
+                            Editar Feedback
+                        </a>
+                        <a asp-action="Index" class="btn-cancel">
+                            <i class="fas fa-list me-2"></i>
+                            Voltar para Lista
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

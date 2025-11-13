@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "Eclipse.Controllers.ChatController",
+    "Method": "Send",
+    "RelativePath": "api/chat/send",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "Eclipse.Controllers.ChatController\u002BChatRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

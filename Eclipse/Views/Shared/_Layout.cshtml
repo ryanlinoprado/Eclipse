@@ -1,0 +1,153 @@
+﻿@* Views/Shared/_Layout.cshtml *@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'><path d='M20 0C8.954 0 0 8.954 0 20C0 31.046 8.954 40 20 40C31.046 40 40 31.046 40 20C40 8.954 31.046 0 20 0ZM20 36C11.178 36 4 28.822 4 20C4 11.178 11.178 4 20 4C28.822 4 36 11.178 36 20C36 28.822 28.822 36 20 36Z' fill='%238a2be2'/><path d='M20 8C13.373 8 8 13.373 8 20C8 26.627 13.373 32 20 32C26.627 32 32 26.627 32 20C32 13.373 26.627 8 20 8ZM20 28C17.791 28 16 26.209 16 24C16 21.791 17.791 20 20 20C22.209 20 24 21.791 24 24C24 26.209 22.209 28 20 28Z' fill='%238a2be2'/><path d='M26 14C24.895 14 24 14.895 24 16C24 17.105 24.895 18 26 18C27.105 18 28 17.105 28 16C28 14.895 27.105 14 26 14Z' fill='%238a2be2'/></svg>">
+    <!-- Fallback for older browsers -->
+    <link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAA7EAAAOxAGVKw4bAAABFUlEQVRYhe2XMQ7CMAxFf0dghCv0CFyBI3AEjsAROAJH4AgcgSNwBI7AETgCR+AIHIEjcASOwBE4AkfgCByBI3AEjsAROAJH4AgcgSNwBI7AETgCR+AIHIEjcASOwBE4AkfgCByBI3AEjsAROAJH4AgcgSNwBI7AETgCR+AIHIEjcASOwBE4AkfgCByBI3AEjsAROAJH4AgcgSNwBI7AETgCR+AIHIEjcASOwBE4AkfgCByBI3AEjsAROAJH4AgcgSNwBI7AETgCR+AIHIEjcASOwBE4AkfgCByBI3AEjsAROAJH4AgcgSNwBI7AETgCR+AIHIEjcASOwBE4AkfgCByBI3AEjsAROAJH4AgcgSNwBI7AETgCR+AIHIEjcASOwBE4AkfgCByBI3AEjsAROAJH4AgcgSNwBI7AETgC5x9nA8J7d4nYAAAAAElFTkSuQmCC">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="~/css/style.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/chamado/chamados.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/chamado/edit_dt.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/chamado/create_del.css" asp-append-version="true"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    @await RenderSectionAsync("Styles", required: false)
+
+
+    <!--Teste-->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top glass-effect">
+        <div class="container">
+            <a class="navbar-brand" href="@Url.Action("Index", "Home")">
+                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M20 0C8.954 0 0 8.954 0 20C0 31.046 8.954 40 20 40C31.046 40 40 31.046 40 20C40 8.954 31.046 0 20 0ZM20 36C11.178 36 4 28.822 4 20C4 11.178 11.178 4 20 4C28.822 4 36 11.178 36 20C36 28.822 28.822 36 20 36Z" fill="#8a2be2" />
+                    <path d="M20 8C13.373 8 8 13.373 8 20C8 26.627 13.373 32 20 32C26.627 32 32 26.627 32 20C32 13.373 26.627 8 20 8ZM20 28C17.791 28 16 26.209 16 24C16 21.791 17.791 20 20 20C22.209 20 24 21.791 24 24C24 26.209 22.209 28 20 28Z" fill="#8a2be2" />
+                    <path d="M26 14C24.895 14 24 14.895 24 16C24 17.105 24.895 18 26 18C27.105 18 28 17.105 28 16C28 14.895 27.105 14 26 14Z" fill="#8a2be2" />
+                </svg>
+                Eclipse
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-area="" asp-controller="ChatView" asp-action="Index">Chat</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-area="" asp-controller="Chamado" asp-action="Index">Chamado</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-area="" asp-controller="Feedbacks" asp-action="Index">Feedbacks</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-area="" asp-controller="Faq" asp-action="Index">FAQ</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main role="main">
+        @RenderBody()
+    </main>
+
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <div class="footer-logo">Eclipse</div>
+                    <p class="footer-text">Sua plataforma de suporte para jogos favorita. Estamos aqui para melhorar sua experiência de desenvolvimento.</p>
+                    <div class="d-flex gap-3 mt-3">
+                        <a href="#" class="text-decoration-none">
+                            <i class="fab fa-twitter fa-lg a-color"></i>
+                        </a>
+                        <a href="#" class="text-decoration-none">
+                            <i class="fab fa-instagram fa-lg a-color"></i>
+                        </a>
+                        <a href="#" class="text-decoration-none">
+                            <i class="fab fa-facebook-f fa-lg a-color"></i>
+                        </a>
+                        <a href="#" class="text-decoration-none">
+                            <i class="fab fa-discord fa-lg a-color"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4 mb-md-0 footer-links">
+                    <h5>Links Rápidos</h5>
+                    <ul>
+                        <li><a href="@Url.Action("Index", "Home")">Home</a></li>
+                        <li><a href="@Url.Action("Index", "Sobre")">Sobre</a>
+                        <li><a href="@Url.Action("Index", "Faq")">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4 mb-md-0 footer-links">
+                    <h5>Suporte</h5>
+                    <ul>
+                        <li><a href="@Url.Action("Index", "ChatView")">Chat</a></li>
+                        <li><a href="@Url.Action("Index", "Home")">Chamado</a></li>
+                        <li><a href="@Url.Action("Index", "Feedbacks")">Feedbacks</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 footer-links">
+                    <h5>Newsletter</h5>
+                    <p class="footer-text">Inscreva-se para receber atualizações e ofertas especiais.</p>
+                    <form method="post" action="@Url.Action("Subscribe", "Home")">
+                        <div class="input-group mb-3">
+                            <input type="email" class="form-control glass-effect" name="email" placeholder="Seu e-mail" aria-label="Seu e-mail" style="border: none;" required>
+                            <button class="btn btn-purple" type="submit">Inscrever</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Eclipse. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
+
+    <script>
+        $(function () {
+            var mensagem = '@TempData["MensagemSucesso"]';
+            if (mensagem) {
+                toastr.success(mensagem);
+            }
+        });
+    </script>
+
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+
+
+</body>
+</html>

@@ -1,0 +1,84 @@
+﻿@model Eclipse.Models.Chamado
+
+@{
+    ViewData["Title"] = "Detalhes do Chamado";
+}
+
+<div class="main-container">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="content-card glass-effect">
+                    <div class="d-flex align-items-center mb-4">
+                        <a asp-action="Index" class="btn-back me-3">
+                            <i class="fas fa-arrow-left"></i>
+                        </a>
+                        <h1 class="page-title mb-0">Detalhes do Chamado</h1>
+                    </div>
+
+                    <div class="chamado-header">
+                        <div class="d-flex justify-content-between align-items-start mb-4">
+                            <div>
+                                <h3 class="chamado-titulo">@Model.Titulo</h3>
+                                <span class="status-badge @GetStatusClass(Model.Status)">@Model.Status</span>
+                            </div>
+                            <a asp-action="Edit" asp-route-id="@Model.ChamadoId" class="btn-edit">
+                                <i class="fas fa-edit me-2"></i>
+                                Editar
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="chamado-details">
+                        <div class="detail-section">
+                            <h4 class="detail-title">Descrição</h4>
+                            <p class="detail-content">@Model.Descricao</p>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="detail-item">
+                                    <span class="detail-label">Data de Criação</span>
+                                    <span class="detail-value">@Model.DataCriacaoString</span>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="detail-item">
+                                    <span class="detail-label">Última Atualização</span>
+                                    <span class="detail-value">@Model.DataAtualizacaoString</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="detail-item">
+                            <span class="detail-label">ID do Chamado</span>
+                            <span class="detail-value">@Model.ChamadoId</span>
+                        </div>
+                    </div>
+
+                    <div class="action-buttons mt-4">
+                        <a asp-action="Edit" asp-route-id="@Model.ChamadoId" class="btn-submit">
+                            <i class="fas fa-edit me-2"></i>
+                            Editar Chamado
+                        </a>
+                        <a asp-action="Index" class="btn-cancel">
+                            <i class="fas fa-list me-2"></i>
+                            Voltar para Lista
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@functions {
+    public string GetStatusClass(string status) {
+        return status?.ToLower() switch {
+            "aberto" => "status-aberto",
+            "em andamento" => "status-andamento",
+            "fechado" or "resolvido" => "status-fechado",
+            _ => "status-aberto"
+        };
+    }
+}

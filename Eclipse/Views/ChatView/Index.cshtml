@@ -1,0 +1,260 @@
+﻿@{
+    ViewData["Title"] = "Chat - Eclipse";
+}
+<link rel="stylesheet" href="~/css/chat/chat.css" asp-append-version="true" />
+
+<div class="main-container">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-10">
+                <div class="content-card glass-effect">
+                    <div class="chat-header text-center mb-4">
+                        <h1 class="page-title">Suporte de Jogos Eclipse</h1>
+                        <p class="page-subtitle">
+                            Converse com nosso assistente de IA sobre problemas em jogos, configurações, bugs e otimizações
+                        </p>
+                    </div>
+
+                    <div class="chat-container">
+                        <div id="chatlog" class="chatlog glass-effect">
+                            <!-- Messages will be inserted here by JavaScript -->
+                        </div>
+
+                        <div class="input-container mt-4">
+                            <div class="input-group">
+                                <input id="chatInput" type="text" class="form-control"
+                                       placeholder="Descreva seu problema... (ex.: jogo travando, erro de conexão)" />
+                                <button id="sendBtn" class="btn btn-purple">
+                                    <i class="fas fa-paper-plane me-2"></i>
+                                    Enviar
+                                </button>
+                            </div>
+                            <div class="chat-actions mt-3">
+                                <button id="clearBtn" class="btn btn-outline-light btn-sm me-2">
+                                    <i class="fas fa-trash me-1"></i>
+                                    Limpar Chat
+                                </button>
+                                <button id="suggestionsBtn" class="btn btn-outline-light btn-sm">
+                                    <i class="fas fa-lightbulb me-1"></i>
+                                    Problemas Comuns
+                                </button>
+                                <button id="createTicketBtn" class="btn btn-outline-light btn-sm" onclick="navigateToTickets()">
+                                    <i class="fas fa-ticket-alt me-1"></i>
+                                    Criar Chamado
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    // Referências aos elementos da interface
+    const $log = document.getElementById('chatlog');
+    const $input = document.getElementById('chatInput');
+    const $send = document.getElementById('sendBtn');
+    const $clear = document.getElementById('clearBtn');
+    const $suggestions = document.getElementById('suggestionsBtn');
+    const $createTicket = document.getElementById('createTicketBtn');
+
+    // Sugestões rápidas para problemas comuns em jogos
+    const quickSuggestions = [
+        "Jogo travando ou crashando",
+        "Problema de conexão online",
+        "Erro ao instalar ou atualizar",
+        "Controles não funcionam",
+        "Áudio com problemas",
+        "Performance baixa ou lag",
+        "Salvamento não funciona",
+        "Tela preta ou congelada"
+    ];
+
+    // Adiciona uma nova mensagem ao log do chat.
+    function appendMsg(sender, text) {
+        const msgDiv = document.createElement('div');
+        msgDiv.className = `msg ${sender}`;
+
+        const time = new Date().toLocaleTimeString('pt-BR', {
+            hour: '2-digit',
+            minute: '2-digit'
+        });
+
+        const avatar = sender === 'user'
+            ? '<i class="fas fa-user"></i>'
+            : '<i class="fas fa-gamepad"></i>';
+
+        msgDiv.innerHTML = `
+            ${sender === 'bot' ? `
+                <div class="msg-avatar">${avatar}</div>
+                <div class="bubble">
+                    <div class="msg-text">${escapeHtml(text)}</div>
+                    <div class="msg-time">${time}</div>
+                </div>
+            ` : `
+                <div class="bubble">
+                    <div class="msg-text">${escapeHtml(text)}</div>
+                    <div class="msg-time">${time}</div>
+                </div>
+                <div class="msg-avatar">${avatar}</div>
+            `}
+        `;
+
+        $log.appendChild(msgDiv);
+        $log.scrollTop = $log.scrollHeight;
+    }
+
+    // Adiciona indicador de digitação
+    function appendTyping() {
+        const msgDiv = document.createElement('div');
+        msgDiv.className = 'msg bot';
+        msgDiv.id = 'typing-indicator';
+
+        msgDiv.innerHTML = `
+            <div class="msg-avatar"><i class="fas fa-gamepad"></i></div>
+            <div class="bubble">
+                <div class="typing-indicator">
+                    <div class="typing-dot"></div>
+                    <div class="typing-dot"></div>
+                    <div class="typing-dot"></div>
+                </div>
+            </div>
+        `;
+
+        $log.appendChild(msgDiv);
+        $log.scrollTop = $log.scrollHeight;
+    }
+
+    // Remove indicador de digitação
+    function removeTyping() {
+        const typingIndicator = document.getElementById('typing-indicator');
+        if (typingIndicator) {
+            typingIndicator.remove();
+        }
+    }
+
+    // Mostra sugestões rápidas
+    function showQuickSuggestions() {
+        const suggestionsDiv = document.createElement('div');
+        suggestionsDiv.className = 'quick-suggestions';
+
+        quickSuggestions.forEach(suggestion => {
+            const suggestionBtn = document.createElement('button');
+            suggestionBtn.className = 'quick-suggestion';
+            suggestionBtn.textContent = suggestion;
+            suggestionBtn.addEventListener('click', () => {
+                $input.value = suggestion;
+                sendMessage();
+            });
+            suggestionsDiv.appendChild(suggestionBtn);
+        });
+
+        $log.appendChild(suggestionsDiv);
+        $log.scrollTop = $log.scrollHeight;
+    }
+
+    //aqui
+
+    // Sanitiza texto para evitar XSS caso venha algo com tags HTML.
+    function escapeHtml(s) {
+        return s.replace(/[&<>"']/g, c => ({
+            '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'
+        }[c]));
+    }
+
+  
+    //aqui
+
+    // Função que envia a mensagem do usuário para a API
+    async function sendMessage() {
+        const text = $input.value.trim();
+        if (!text) return;
+
+        // Mostra a mensagem do usuário imediatamente
+        appendMsg('user', text);
+
+        // Limpa o input e mantém o foco
+        $input.value = '';
+        $input.focus();
+
+        // Mostra indicador de digitação
+        appendTyping();
+
+        try {
+            // Chama o endpoint da aplicação
+            const res = await fetch('/api/chat/send', {
+                method: 'POST',
+                headers: { 'Content-Type':'application/json' },
+                body: JSON.stringify({ message: text })
+            });
+
+                // Remove indicador de digitação
+                         removeTyping();
+
+                // Cria o balão do bot antes de inserir a resposta
+                appendMsg('bot', '...');
+
+                // Seleciona o balão recém-criado
+                const last = $log.querySelector('.msg.bot:last-child .bubble');
+
+                    if (!res.ok) {
+                    last.innerHTML = '❌ Erro ao contactar nosso assistente. Tente novamente.';
+                    return;
+         }
+
+                const data = await res.json();
+                last.innerHTML = escapeHtml(data.reply || 'Desculpe, não consegui processar sua mensagem.');
+
+
+                } catch (e) {
+            removeTyping();
+            const last = $log.querySelector('.msg.bot:last-child .bubble');
+            last.textContent = '❌ Falha na conexão. Verifique sua internet.';
+        }
+    }
+
+    // Limpa o chat
+    function clearChat() {
+        $log.innerHTML = '';
+        appendMsg('bot', '🎮 Olá! Sou o assistente de suporte da Eclipse Games! Como posso ajudar com seu problema hoje?');
+    }
+
+    // Cria ticket de suporte
+    function createTicket() {
+        appendMsg('user', 'Gostaria de criar um chamado com a equipe de suporte.');
+        appendMsg('bot', 'Entendi! Para problemas complexos, recomendo criar um chamado. Nossa equipe especializada irá analisar seu caso pessoalmente.');
+
+        setTimeout(() => {
+            if (confirm('Deseja ser redirecionado para a página de criação de chamados?')) {
+                window.location.href = '/Chamados/Create';
+            }
+        }, 1000);
+    }
+
+    // Event Listeners
+    $send.addEventListener('click', sendMessage);
+    $input.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter') sendMessage();
+    });
+
+    $clear.addEventListener('click', clearChat);
+    $suggestions.addEventListener('click', showQuickSuggestions);
+    $createTicket.addEventListener('click', createTicket);
+
+    // Mensagem de boas-vindas quando a página carrega
+    document.addEventListener('DOMContentLoaded', function() {
+        appendMsg('bot', '🎮 Olá! Sou o assistente de suporte da Eclipse Games! Como posso ajudar com seu problema hoje?');
+
+        // Mostra sugestões após um breve delay
+        setTimeout(showQuickSuggestions, 1500);
+
+        // Foca no input
+        $input.focus();
+    });
+
+     function navigateToTickets() {
+        window.location.href = 'Chamado/Create';
+    }
+</script>

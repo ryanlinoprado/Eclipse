@@ -1,0 +1,89 @@
+﻿@model Eclipse.Models.Chamado
+
+@{
+    ViewData["Title"] = "Novo Chamado";
+}
+
+<div class="main-container">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="content-card glass-effect">
+                    <div class="d-flex align-items-center mb-4">
+                        <a asp-action="Index" class="btn-back me-3">
+                            <i class="fas fa-arrow-left"></i>
+                        </a>
+                        <h1 class="page-title mb-0">Criar Novo Chamado</h1>
+                    </div>
+
+                    <p class="page-subtitle">Preencha os dados abaixo para abrir um novo chamado de suporte</p>
+
+                    <form asp-action="Create" class="create-form">
+                        <div asp-validation-summary="ModelOnly" class="alert alert-danger"></div>
+
+                        <div class="row">
+                            <div class="col-md-6 mb-4">
+                                <div class="form-group">
+                                    <label asp-for="Titulo" class="form-label">Título *</label>
+                                    <input asp-for="Titulo" class="form-control" placeholder="Digite um título descritivo" required />
+                                    <span asp-validation-for="Titulo" class="validation-message"></span>
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-4">
+                                <div class="form-group">
+                                    <label asp-for="Status" class="form-label">Status *</label>
+                                    <select asp-for="Status" class="form-control" required>
+                                        <option class="form-color" value="">Selecione o Status</option>
+                                        <option class="form-color" value="Aberto">Aberto</option>
+                                        <option class="form-color" value="Em Andamento">Em Andamento</option>
+                                        <option class="form-color" value="Fechado">Fechado</option>
+                                        <option class="form-color" value="Resolvido">Resolvido</option>
+                                    </select>
+                                    <span asp-validation-for="Status" class="validation-message"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mb-4">
+                            <div class="form-group">
+                                <label asp-for="Descricao" class="form-label">Descrição *</label>
+                                <textarea asp-for="Descricao" class="form-control" rows="6" placeholder="Descreva detalhadamente o problema ou solicitação..." required></textarea>
+                                <span asp-validation-for="Descricao" class="validation-message"></span>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6 mb-4">
+                                <div class="form-group">
+                                    <label asp-for="DataCriacaoString" class="form-label">Data de Criação</label>
+                                    <input asp-for="DataCriacaoString" class="form-control" type="datetime-local" />
+                                    <span asp-validation-for="DataCriacaoString" class="validation-message"></span>
+                                    <small class="form-text">Deixe em branco para usar a data atual</small>
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-4">
+                                <div class="form-group">
+                                    <label asp-for="DataAtualizacaoString" class="form-label">Data de Atualização</label>
+                                    <input asp-for="DataAtualizacaoString" class="form-control" type="datetime-local" />
+                                    <span asp-validation-for="DataAtualizacaoString" class="validation-message"></span>
+                                    <small class="form-text">Deixe em branco para usar a data atual</small>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-actions">
+                            <button type="submit" class="btn-submit">
+                                <i class="fas fa-plus-circle me-2"></i>
+                                Criar Chamado
+                            </button>
+                            <a asp-action="Index" class="btn-cancel">
+                                <i class="fas fa-times me-2"></i>
+                                Cancelar
+                            </a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

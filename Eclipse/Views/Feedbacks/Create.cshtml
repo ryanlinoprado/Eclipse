@@ -1,0 +1,85 @@
+﻿@model Eclipse.Models.Feedback
+
+@{
+    ViewData["Title"] = "Novo Feedback";
+}
+
+<link href="~/css/Feedbacks/create_del.css" rel="stylesheet" />
+
+<div class="main-container">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="content-card glass-effect">
+                    <div class="d-flex align-items-center mb-4">
+                        <a asp-action="Index" class="btn-back me-3">
+                            <i class="fas fa-arrow-left"></i>
+                        </a>
+                        <h1 class="page-title mb-0">Adicionar Feedback</h1>
+                    </div>
+
+                    <form asp-action="Create" class="feedback-form">
+                        <div asp-validation-summary="ModelOnly" class="alert alert-danger"></div>
+
+                        <div class="mb-4">
+                            <label class="form-label">Avaliação</label>
+                            <div class="rating-input">
+                                @for (int i = 1; i <= 5; i++) {
+                                    <input type="radio" id="star@(i)" name="Nota" value="@i" @(i == 0 ? "checked" : "") />
+                                    <label for="star@(i)" class="star-label">
+                                        <i class="fas fa-star"></i>
+                                    </label>
+                                }
+                            </div>
+                            <span asp-validation-for="Nota" class="validation-message"></span>
+                        </div>
+
+                        <div class="mb-4">
+                            <label asp-for="Comentario" class="form-label">Comentário</label>
+                            <textarea asp-for="Comentario" class="form-control" rows="5"
+                                      placeholder="Compartilhe sua opinião sobre nosso suporte..."></textarea>
+                            <span asp-validation-for="Comentario" class="validation-message"></span>
+                        </div>
+
+                        <div class="form-actions">
+                            <button type="submit" class="btn-submit">
+                                <i class="fas fa-check me-2"></i>
+                                Salvar Feedback
+                            </button>
+                            <a asp-action="Index" class="btn-cancel">
+                                <i class="fas fa-times me-2"></i>
+                                Cancelar
+                            </a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+        document.addEventListener('DOMContentLoaded', function () {
+        // Rating system interaction
+        const stars = document.querySelectorAll('.star-label');
+
+        stars.forEach((star, index) => {
+            star.addEventListener('click', function () {
+                const starIndex = index + 1;
+
+                // Update visual state
+                stars.forEach((s, i) => {
+                    if (i < starIndex) {
+                        s.style.color = '#ffd700';
+                    } else {
+                        s.style.color = 'rgba(255, 255, 255, 0.3)';
+                    }
+                });
+
+                // Update hidden input
+                document.querySelector(`#star${starIndex}`).checked = true;
+            });
+        });
+    });
+</script>
+
