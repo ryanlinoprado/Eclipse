@@ -46,7 +46,7 @@ namespace Eclipse.Services
                 using var resp = await http.PostAsJsonAsync("chat/completions", payload, ct);
                 var body = await resp.Content.ReadAsStringAsync(ct);
 
-                // 🔎 Log completo (útil para depuração)
+               
                 _logger.LogInformation("Resposta da OpenAI: {Body}", body);
 
                 if (resp.IsSuccessStatusCode)
