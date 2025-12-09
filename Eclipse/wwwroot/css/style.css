@@ -85,7 +85,34 @@ body {
 .hero-section {
     padding: 100px 0;
     text-align: center;
+    position: relative;
 }
+
+    .hero-section::before {
+        content: "";
+        position: absolute;
+        top: 55%; 
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 2000px; 
+        height: 850px;
+        background-image: url('/img/banner.jpg'); 
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        opacity: 0.20; 
+        filter: blur(2px); 
+        
+        z-index: 1;
+        pointer-events: none; 
+    }
+
+.hero-card {
+    position: relative;
+    z-index: 2; 
+}
+
+
 
 .hero-title {
     font-size: 3.5rem;
@@ -243,7 +270,7 @@ body {
     }
 }
 
-/* Estilo geral da seÁ„o de galeria */
+/* Estilo geral da se√ß√£o de galeria */
 .gallery-section {
     padding: 60px;
     color: #fff;
@@ -253,13 +280,13 @@ body {
     margin-top:15px !important; 
 }
 
-    /* TÌtulo da seÁ„o */
+    /* T√≠tulo da se√ß√£o */
     .gallery-section .section-title {
         font-size: 2.5rem;
         color: #e0e0ff;
     }
 
-/* Cart„o de imagem com efeito glass */
+/* Cart√£o de imagem com efeito glass */
 .gallery-card {
     background: var(--glass-border);
     border-radius: 15px;
@@ -319,4 +346,3 @@ body {
             height: 180px;
         }
     }
-
